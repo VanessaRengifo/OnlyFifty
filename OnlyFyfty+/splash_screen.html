@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="Estilos/splash_screen.css">
+    <title>OnlyFifty+</title>
+    
+</head>
+<body>
+    <div class="preload" id="preloader">
+        <div class="logo">
+            Only<samp style="color: #3C7CA4;">Fifty+</samp>
+        </div>
+        <center><img src="src/img/logo.jpg" height="180px" width="220px"></center><br>
+        <div class="loader-frame">
+            <div class="loader1" id="loader1"></div>
+            <div class="loader2" id="loader2"></div>
+
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        
+        (function(){
+        
+            var preload = document.getElementById("preloader");
+            
+            var loading = 0;
+            
+            var id = setInterval(frame, 64);
+        
+        
+        function frame(){
+        
+            if(loading == 100){
+            
+                clearInterval(id);
+                
+                window.open('index.html', '_self');
+            
+            } else {
+        
+                loading = loading + 1;
+        
+                if(loading == 90){
+        
+                    preload.style.opacity = "0";
+                
+                }
+        
+            }
+        
+        }
+        
+    })();
+        
+    </script>
+</body>
+</html>

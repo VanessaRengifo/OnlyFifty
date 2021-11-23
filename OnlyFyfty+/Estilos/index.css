@@ -1,0 +1,35 @@
+
+#table-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card{
+
+    max-width: 1000px;
+    width: 500px;
+    padding: 20px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 300px;
+
+}
+.carousel-item img{
+    max-width: 2000px;
+    max-height: 1500px;
+    height: 100%;
+}
+table td{
+
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+

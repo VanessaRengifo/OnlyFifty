@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: monospace;
+    background-image: url(../src/img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #818181;
+}
+.boton{
+    align-self: auto;
+    align-content: center;
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: absolute; 
+    left: 1110px; 
+    top: 8px;
+    background-color: rgb(146, 145, 145);
+    border-radius: 10px;
+    
+    
+}

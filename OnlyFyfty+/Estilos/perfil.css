@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: monospace;
+    background-image: url(../src/img/fondo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #818181;
+}
+form{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    
+    
+}
+#iconos1{
+    position: absolute; 
+    left: 467px; 
+    top: 285px;  
+    
+}
+#iconos2{
+    position: absolute; 
+    left: 467px; 
+    top: 359px;
+}
+#iconos3{
+    position: absolute; 
+    left: 467px; 
+    top: 435px;
+}
+#check{
+    position: absolute; 
+    left: 463px; 
+    top: 410px;
+    font-family: Gabriola;
+    font-size: 20px;
+    color: grey;
+}
+#check2{
+    position: absolute; 
+    left: 760px; 
+    top: 410px;
+    font-family: Gabriola;
+    font-size: 23px;
+    color: grey;
+    text-decoration: none;
+}
+#diseño{
+    font-size: 23px;
+    top: 310px;
+}
+#color{
+    color: #3C7CA4;
+}
+.logo{
+    width: 280px;
+    height: 70px;
+    margin: 110px auto 50px auto;
+    text-shadow: -1px 2px 2px #000;
+    text-align: center;
+    
+    
+}
+
+#texto { 
+    width: 420px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    font-size: 30px;
+    text-align: center;
+    font-family: Gabriola;
+    
+}
+#form-check-label{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
